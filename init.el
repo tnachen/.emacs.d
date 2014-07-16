@@ -39,6 +39,7 @@
 
 ;;(auto-image-file-mode t);;image mode
 (show-paren-mode t);;
+(column-number-mode t);;
 (setq mouse-yank-at-point t);; yank with middle key
 (setq x-selet-enable-clipboard t);;emacs paste clip with other program
 ;; full screen
