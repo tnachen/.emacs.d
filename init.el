@@ -106,6 +106,9 @@
 (global-set-key (kbd "<S-right>") 'windmove-right)
 (global-set-key (kbd "<S-left>") 'windmove-left)
 
+(global-set-key (kbd "<M-S-i>") 'indent-region)
+
+
 ;;fringe background color black,
 ;;(custom-set-variables
 ;;  ;; custom-set-variables was added by Custom.
@@ -172,6 +175,13 @@
 (load "recentf-wrapper")
 (require 'recentf-wrapper)
 (global-set-key (kbd "C-x 4 C-r") 'open-recentf-in-new-window)
+
+
+(when (>= emacs-major-version 24)
+    (require 'package)
+      (package-initialize)
+        (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+          )
 
 ;; add package PPAs
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
