@@ -1,3 +1,6 @@
+(setq-default c-basic-offset 2)
+
+
 ;; set username and mail address
 (setq user-full-name "Timothy Chen")
 (setq user-mail-address "tnachen@gmail.com")
@@ -167,12 +170,6 @@
 
 ;; git-modes
 (add-to-list 'load-path "~/.emacs.d/lisp/git-modes/")
-;; magit
-(add-to-list 'load-path "~/.emacs.d/lisp/magit/")
-(eval-after-load 'info
-  '(progn (info-initialize)
-          (add-to-list 'Info-directory-list "~/.emacs.d/lisp/magit/")))
-(require 'magit)
 
 ;; format whole
 (load "yformat")
@@ -233,3 +230,17 @@
                     ("\\<\\(xstring\\|xchar\\)\\>" . font-lock-type-face)
                     ))
              ) t)
+
+
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
+(ac-config-default)
+
+(require 'go-autocomplete)
+(require 'auto-complete-config)
+
+(add-to-list 'load-path "~/.emacs.d/lisp/go-mode.el/")
+(require 'go-mode-autoloads)
+
+(require 'go-mode)
+(add-hook 'before-save-hook 'gofmt-before-save)
