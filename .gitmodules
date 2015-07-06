@@ -1,3 +1,6 @@
 [submodule "lisp/go-mode.el"]
 	path = lisp/go-mode.el
 	url = https://github.com/dominikh/go-mode.el.git
+[submodule "lisp/gocode"]
+	path = lisp/gocode
+	url = https://github.com/nsf/gocode.git
