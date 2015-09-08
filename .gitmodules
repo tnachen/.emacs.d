@@ -4,3 +4,6 @@
 [submodule "lisp/gocode"]
 	path = lisp/gocode
 	url = https://github.com/nsf/gocode.git
+[submodule "list/multiple-cursors.el"]
+	path = list/multiple-cursors.el
+	url = https://github.com/magnars/multiple-cursors.el

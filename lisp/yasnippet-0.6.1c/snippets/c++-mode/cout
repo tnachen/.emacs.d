@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: stdcout
-# key: stdcout
-# --
-std::cout << ${1:string}${2: << std::endl};
