@@ -56,7 +56,7 @@
        (unless (file-exists-p sock)
          (add-hook 'kill-emacs-hook #'(lambda ()
                                         (ignore-errors
-                                          (call-process "gocode" nil nil nil "close"))))))))
+                                          (call-process "~/go/bin/gocode" nil nil nil "close"))))))))
 
 ;(defvar go-reserved-keywords
 ;  '("break" "case" "chan" "const" "continue" "default" "defer" "else"
@@ -92,7 +92,7 @@
         (progn
           (call-process-region (point-min)
                                (point-max)
-                               "gocode"
+                               "~/go/bin/gocode"
                                nil
                                temp-buffer
                                nil

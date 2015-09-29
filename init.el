@@ -231,6 +231,8 @@
                     ))
              ) t)
 
+(add-hook 'c++-mode-hook (lambda () (interactive) (column-marker-1 80)))
+
 
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d//ac-dict")
@@ -246,3 +248,19 @@
 (add-hook 'before-save-hook 'gofmt-before-save)
 
 (require 'multiple-cursors)
+
+(require 'column-marker)
+
+(require 'find-file-in-repository)
+(require 'ido)
+
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
+(require 'ido-ubiquitous)
+(require 'ido-vertical-mode)
+(global-set-key (kbd "C-x f") 'find-file-in-repository)
+(ido-ubiquitous-mode 1)
+(ido-vertical-mode)
+(setq ido-vertical-define-keys 'C-n-C-p-up-down-left-right)
