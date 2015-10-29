@@ -1,0 +1,105 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/" . "provisioner/")
+ ("/Users/tnachen/src/mesosphere/mesos/src/slave/" . "containerizer/")
+ ("/Users/tnachen/src/mesosphere/mesos/src/" . "tests/")
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/include/" . "process/")
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/" . "src/")
+ ("/Users/tnachen/src/mesosphere/mesos/3rdparty/libprocess/" . "src/")
+ ("/Users/tnachen/src/mesosphere/mesos/3rdparty/" . "libprocess/")
+ ("/Users/tnachen/src/mesosphere/mesos/" . "3rdparty/")
+ ("/Users/tnachen/go/src/github.com/opencontainers/runc/" . "libcontainer/")
+ ("/Users/tnachen/go/src/github.com/opencontainers/" . "runc/")
+ ("/Users/tnachen/go/src/github.com/opencontainers/runc/libcontainer/" . "user/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/tnachen/src/mesosphere/mesos/src/tests/containerizer/"
+ "/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/"
+ "/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/docker/"
+ "/Users/tnachen/src/showroom-prototype/public/room/"
+ "/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/src/tests/"
+ "/Users/tnachen/src/showroom-prototype/"
+ "/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/src/"
+ "/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/include/process/"
+ "/Users/tnachen/src/mesosphere/mesos/3rdparty/libprocess/src/"
+ "/Users/tnachen/go/src/github.com/opencontainers/runc/libcontainer/user/"
+ "/Users/tnachen/go/src/github.com/opencontainers/runc/libcontainer/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "provisioner_appc_tests.cpp"
+ "provisioner_backend_tests.cpp"
+ "mesos_containerizer_tests.cpp"
+ "provisioner.hpp"
+ "provisioner.cpp"
+ "provisioner_docker_tests.cpp"
+ "local_puller.hpp"
+ "local_puller.cpp"
+ "showroom_test8.html"
+ "showroom_test7.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/" (22028 8667 0 0) "store.hpp" "store.cpp" "provisioner.hpp" "provisioner.cpp" "paths.hpp" "paths.cpp" "docker/" "backends/" "backend.hpp" "backend.cpp" "appc/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/" (22028 8667 0 0) "provisioner/" "mesos/" "linux_launcher.hpp" "linux_launcher.cpp" "launcher.hpp" "launcher.cpp" "isolators/" "isolator.hpp" "isolator.cpp" "fetcher.hpp" "fetcher.cpp" "external_containerizer.hpp" "external_containerizer.cpp" "docker.hpp" "docker.cpp" "containerizer.hpp" "containerizer.cpp" "composing.hpp" "composing.cpp" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/src/slave/" (22035 26755 0 0) "status_update_manager.hpp" "status_update_manager.cpp" "state.hpp" "state.cpp" "slave.hpp" "slave.cpp" "resource_estimators/" "resource_estimator.cpp" "qos_controllers/" "qos_controller.cpp" "paths.hpp" "paths.cpp" "monitor.hpp" "monitor.cpp" "metrics.hpp" "metrics.cpp" "main.cpp" "http.cpp" "gc.hpp" "gc.cpp" "flags.hpp" "flags.cpp" "containerizer/" "constants.hpp" "constants.cpp" "cmake/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/src/" (22035 26755 0 0) "zookeeper/" "webui/" "watcher/" "v1/" "usage/" "tests/" "state/" "slave/" "scheduler/" "sched/" "scaling/" "python/" "module/" "messages/" "master/" "Makefile.in" "Makefile.am" "main.dox" "logging/" "log/" "local/" "linux/" "launcher/" "jvm/" "java/" "internal/" "hook/" "health-check/" "hdfs/" "files/" "exec/" "examples/" "docker/" "deploy/" "credentials/" "common/" "CMakeLists.txt" "cmake/" "cli/" "authorizer/" "authentication/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/src/tests/" (22035 26755 0 0) "zookeeper_url_tests.cpp" "zookeeper_tests.cpp" "zookeeper_test_server.hpp" "zookeeper_test_server.cpp" "zookeeper.hpp" "zookeeper.cpp" "values_tests.cpp" "utils.hpp" "utils.cpp" "test_framework_test.sh" "teardown_tests.cpp" "status_update_manager_tests.cpp" "state_tests.cpp" "sorter_tests.cpp" "slave_tests.cpp" "slave_recovery_tests.cpp" "script.hpp" "script.cpp" "scheduler_tests.cpp" "scheduler_event_call_tests.cpp" "scheduler_driver_tests.cpp" "resources_tests.cpp" "resource_offers_tests.cpp" "reservation_tests.cpp" "reservation_endpoints_tests.cpp" "repair_tests.cpp" "registrar_zookeeper_tests.cpp" "registrar_tests.cpp" "reconciliation_tests.cpp" "rate_limiting_tests.cpp" "python_framework_test.sh" "protobuf_io_tests.cpp" "persistent_volume_tests.cpp" "persistent_volume_framework_test.sh" "paths_tests.cpp" "partition_tests.cpp" "oversubscription_tests.cpp" "no_executor_framework_test.sh" "monitor_tests.cpp" "module_tests.cpp" "module.hpp" "module.cpp" "metrics_tests.cpp" "mesos.hpp" "mesos.cpp" "master_validation_tests.cpp" "master_tests.cpp" "master_slave_reconciliation_tests.cpp" "master_maintenance_tests.cpp" "master_contender_detector_tests.cpp" "master_authorization_tests.cpp" "master_allocator_tests.cpp" "main.cpp" "logging_tests.cpp" "log_tests.cpp" "limiter.hpp" "java_log_test.sh" "java_framework_test.sh" "java_exception_test.sh" "http_api_tests.cpp" "hook_tests.cpp" "hierarchical_allocator_tests.cpp" "health_check_tests.cpp" "group_tests.cpp" "gc_tests.cpp" "flags.hpp" "flags.cpp" "files_tests.cpp" "fetcher_tests.cpp" "fetcher_cache_tests.cpp" "fault_tolerance_tests.cpp" "executor_http_api_tests.cpp" "exception_tests.cpp" "examples_tests.cpp" "event_call_framework_test.sh" "environment.hpp" "environment.cpp" "disk_quota_tests.cpp" "credentials_tests.cpp" "cram_md5_authentication_tests.cpp" "containerizer.hpp" "containerizer.cpp" "containerizer/" "common/" "cluster.hpp" "balloon_framework_test.sh" "authorization_tests.cpp" "authentication_tests.cpp" "attributes_tests.cpp" "anonymous_tests.cpp" "active_user_test_helper.cpp" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/src/tests/containerizer/" (22028 8667 0 0) "setns_test_helper_main.cpp" "setns_test_helper.hpp" "setns_test_helper.cpp" "sched_tests.cpp" "routing_tests.cpp" "rootfs.hpp" "provisioner_docker_tests.cpp" "provisioner_backend_tests.cpp" "provisioner_appc_tests.cpp" "provisioner.hpp" "port_mapping_tests.cpp" "perf_tests.cpp" "ns_tests.cpp" "mesos_containerizer_tests.cpp" "memory_test_helper_main.cpp" "memory_test_helper.hpp" "memory_test_helper.cpp" "memory_pressure_tests.cpp" "launcher.hpp" "launch_tests.cpp" "isolator_tests.cpp" "isolator.hpp" "fs_tests.cpp" "filesystem_isolator_tests.cpp" "external_containerizer_test.cpp" "docker_tests.cpp" "docker_containerizer_tests.cpp" "composing_containerizer_tests.cpp" "cgroups_tests.cpp" "cgroups_isolator_tests.cpp" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/docker/" (22028 8667 0 0) "token_manager.hpp" "token_manager.cpp" "store.hpp" "store.cpp" "registry_client.hpp" "registry_client.cpp" "puller.hpp" "puller.cpp" "paths.hpp" "paths.cpp" "metadata_manager.hpp" "metadata_manager.cpp" "message.proto" "message.hpp" "local_puller.hpp" "local_puller.cpp" "../" "./")
+
+ ("/Users/tnachen/src/showroom-prototype/public/room/" (22032 50730 0 0) "textures/" "showroom_test8.html" "showroom_test7.html" "showroom_test6.html" "showroom_test5.html" "showroom_test4.html" "showroom_test3.html" "showroom_test2.html" "showroom_test.html" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/src/tests/" (22030 53305 0 0) "timeseries_tests.cpp" "time_tests.cpp" "system_tests.cpp" "subprocess_tests.cpp" "statistics_tests.cpp" "ssl_tests.cpp" "ssl_client.cpp" "shared_tests.cpp" "sequence_tests.cpp" "reap_tests.cpp" "queue_tests.cpp" "process_tests.cpp" "owned_tests.cpp" "mutex_tests.cpp" "metrics_tests.cpp" "main.cpp" "limiter_tests.cpp" "io_tests.cpp" "http_tests.cpp" "future_tests.cpp" "encoder_tests.cpp" "decoder_tests.cpp" "collect_tests.cpp" "CMakeLists.txt" "benchmarks.cpp" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/src/" (22030 53060 0 0) "timeseries.cpp" "time.cpp" "tests/" "test-slave.cpp" "test-master.cpp" "subprocess.cpp" "ssl/" "socket.cpp" "reap.cpp" "profiler.cpp" "process_reference.hpp" "process.cpp" "poll_socket.hpp" "poll_socket.cpp" "pid.cpp" "openssl.hpp" "openssl.cpp" "metrics/" "logging.cpp" "libevent_ssl_socket.hpp" "libevent_ssl_socket.cpp" "libevent_poll.cpp" "libevent.hpp" "libevent.cpp" "libev_poll.cpp" "libev.hpp" "libev.cpp" "latch.cpp" "io.cpp" "http.cpp" "help.cpp" "gate.hpp" "firewall.cpp" "event_loop.hpp" "encoder.hpp" "decoder.hpp" "config.hpp" "CMakeLists.txt" "clock.cpp" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/include/process/" (22030 53085 0 0) "timeseries.hpp" "timer.hpp" "timeout.hpp" "time.hpp" "system.hpp" "subprocess.hpp" "statistics.hpp" "ssl/" "socket.hpp" "shared.hpp" "sequence.hpp" "run.hpp" "reap.hpp" "queue.hpp" "protobuf.hpp" "profiler.hpp" "process.hpp" "pid.hpp" "owned.hpp" "once.hpp" "network.hpp" "mutex.hpp" "mime.hpp" "metrics/" "message.hpp" "logging.hpp" "limiter.hpp" "latch.hpp" "io.hpp" "id.hpp" "http.hpp" "help.hpp" "gtest.hpp" "gmock.hpp" "gc.hpp" "future.hpp" "firewall.hpp" "filter.hpp" "executor.hpp" "event.hpp" "dispatch.hpp" "delay.hpp" "deferred.hpp" "defer.hpp" "collect.hpp" "clock.hpp" "check.hpp" "async.hpp" "address.hpp" "../" "./")
+
+ ("/Users/tnachen/src/showroom-prototype/" (22030 52150 0 0) "showroom-prototype.js" "showroom-prototype.html~" "showroom-prototype.html" "showroom-prototype.css" ".meteor/" ".git/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/include/" (21993 54662 0 0) "process/" "Makefile.in" "Makefile.am" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/3rdparty/libprocess/src/" (22028 8667 0 0) "timeseries.cpp" "time.cpp" "tests/" "test-slave.cpp" "test-master.cpp" "subprocess.cpp" "ssl/" "socket.cpp" "reap.cpp" "profiler.cpp" "process_reference.hpp" "process.cpp" "poll_socket.hpp" "poll_socket.cpp" "pid.cpp" "openssl.hpp" "openssl.cpp" "metrics/" "logging.cpp" "libevent_ssl_socket.hpp" "libevent_ssl_socket.cpp" "libevent_poll.cpp" "libevent.hpp" "libevent.cpp" "libev_poll.cpp" "libev.hpp" "libev.cpp" "latch.cpp" "io.cpp" "http.cpp" "help.cpp" "gate.hpp" "firewall.cpp" "event_loop.hpp" "encoder.hpp" "decoder.hpp" "config.hpp" "CMakeLists.txt" "clock.cpp" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/3rdparty/libprocess/" (22029 52328 0 0) "TODO" "src/" "README.md" "missing" "Makefile.in" "Makefile.am" "m4/" "ltmain.sh" "LICENSE" "install-sh" "include/" "examples/" "depcomp" "configure.ac" "configure" "config.sub" "config.guess" "CMakeLists.txt" "cmake/" "bootstrap" "autom4te.cache/" "ar-lib" "aclocal.m4" "3rdparty/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/3rdparty/" (22029 52331 0 0) "zookeeper-3.4.5.tar.gz" "zookeeper-3.4.5.patch" "wheel-0.24.0.tar.gz" "versions.am" "pip-1.5.6.tar.gz" "Makefile.in" "Makefile.am" "libprocess/" "leveldb.tar.gz" "leveldb.patch" "distribute-0.6.26.tar.gz" "CMakeLists.txt" "cmake/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos/" (22029 52332 0 0) "xcode-mesos/" "support/" "src/" "README.md" "NOTICE" "mpi/" "missing" "mesos.pc.in" "Makefile.in" "Makefile.am" "m4/" "ltmain.sh" "LICENSE" "install-sh" "include/" "Doxyfile" "docs/" "Dockerfile" "depcomp" "configure.ac" "configure" "config.sub" "config.guess" "CMakeLists.txt" "cmake/" "CHANGELOG" "build/" "bootstrap" "bin/" "autom4te.cache/" "ar-lib" "aclocal.m4" "3rdparty/" ".reviewboardrc" ".gitignore-template" ".gitignore" ".git/" ".clang-format" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/" (22026 17265 0 0) "yarn-version-info.properties" "yarn-default.xml" "win32/" "webapps/" "vision-value-values/" "version.properties" "universe/" "trax/" "toggle-command.json" "test-suite/" "tachyon/" "swarm-manager.json" "submissions/" "storm/" "ssl-mesos-deploy/" "security-enhanced-mesos/" "scala/" "rootdoc.txt" "rkt/" "remove-image.json~" "remove-image.json" "reflect.properties" "reference.conf-e" "redis.json" "README.md" "pyspark/" "py4j/" "PropertyList-1.0.dtd" "properties.dtd" "presentations/" "poseidon/" "plugin.properties" "parquet.thrift" "parquet/" "overview.html" "orchestra/" "options" "msil.properties" "META-INF/" "mesos_trunk/" "mesos_traces_vis/" "mesos_release/" "mesos-utils/" "mesos-traces/" "mesos-site/" "mesos-go/" "mesos-deb-packaging/" "mesos-cli/" "mesos-build-images/" "mesos/" "marathon/" "mapred-default.xml" "logs/" "logback.xml" "linux/" "LICENSE.txt" "license/" "library.properties" "launch-orchestra/" "kafka/" "jndi.properties" "jetty-dir.css" "jcabi-ajc.log" "javax/" "java_cup/" "install.sh" "install-dcos-cli-ea2.sh" "index.html" "hdfs/" "go-mesos/" "git-r-done.tar" "git-r-done/" "gce-starter-kit/" "external.json" "docker2.json" "docker-demo/" "docker-containers/" "digesterRules.xml" "demoCA.zip" "demoCA/" "deimos/" "decoder.properties" "dcosviz/" "dcos-tests/" "dcos-swarm/" "dcos-spark/" "dcos-openvpn/" "dcos-kafka/" "dcos-image/" "dcos-helloworld/" "dcos-cli/" "dcos/" "darwin/" "core-default.xml" "contribs/" "container-log4j.properties" "compiler.properties" "common-version-info.properties" "cli_install/" "chronos/" "cassandra-spark.jar" "cadvisor/" "build-mesos-executor-layer.sh" "assets/" "akka/" "about_files/" "about.html" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/" (22029 52528 0 0) "xcode-mesos/" "support/" "src/" "README.md" "NOTICE" "mpi/" "missing" "mesos.pc.in" "Makefile.in" "Makefile.am" "m4/" "ltmain.sh" "LICENSE" "install-sh" "include/" "Doxyfile" "docs/" "Dockerfile" "depcomp" "configure.ac" "configure" "config.sub" "config.guess" "CMakeLists.txt" "cmake/" "CHANGELOG" "bootstrap" "bin/" "autom4te.cache/" "ar-lib" "aclocal.m4" "3rdparty/" ".reviewboardrc" ".gitignore-template" ".gitignore" ".git/" ".clang-format" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/" (22029 52528 0 0) "zookeeper-3.4.5.tar.gz" "zookeeper-3.4.5.patch" "wheel-0.24.0.tar.gz" "versions.am" "pip-1.5.6.tar.gz" "Makefile.in" "Makefile.am" "libprocess/" "leveldb.tar.gz" "leveldb.patch" "distribute-0.6.26.tar.gz" "CMakeLists.txt" "cmake/" "../" "./")
+
+ ("/Users/tnachen/src/mesosphere/mesos_trunk/3rdparty/libprocess/" (22018 23514 0 0) "TODO" "src/" "README.md" "missing" "Makefile.in" "Makefile.am" "m4/" "ltmain.sh" "LICENSE" "install-sh" "include/" "examples/" "depcomp" "configure.ac" "configure" "config.sub" "config.guess" "CMakeLists.txt" "cmake/" "bootstrap" "autom4te.cache/" "ar-lib" "aclocal.m4" "3rdparty/" "../" "./")
+
+ ("/Users/tnachen/go/src/github.com/docker/docker/vendor/src/github.com/docker/libnetwork/" (22018 25793 0 0) "wrapmake.sh" "types/" "store.go" "sandbox_externalkey.go" "sandbox.go" "ROADMAP.md" "resolvconf/" "README.md" "portmapper/" "portallocator/" "osl/" "options/" "ns/" "network.go" "netutils/" "netlabel/" "Makefile" "MAINTAINERS" "LICENSE" "iptables/" "ipallocator/" "idm/" "hostdiscovery/" "etchosts/" "error.go" "endpoint_info.go" "endpoint.go" "drivers_windows.go" "drivers_linux.go" "drivers_freebsd.go" "drivers/" "driverapi/" "datastore/" "controller.go" "config/" "client/" "circle.yml" "bitseq/" "api/" ".gitignore" "../" "./")
+
+ ("/Users/tnachen/go/src/github.com/docker/docker/vendor/src/github.com/docker/libnetwork/api/" (22018 25793 0 0) "types.go" "api.go" "../" "./")
+
+ ("/Users/tnachen/go/src/github.com/opencontainers/runc/libcontainer/user/" (22028 6259 0 0) "user_test.go" "user.go" "MAINTAINERS" "lookup_unsupported.go" "lookup_unix.go" "lookup.go" ".#lookup.go" "../" "./")
+
+ ("/Users/tnachen/go/src/github.com/opencontainers/" (22027 13983 0 0) "runc/" "../" "./")
+
+ ("/Users/tnachen/go/src/github.com/opencontainers/runc/" (22027 13977 0 0) "utils.go" "tty.go" "start.go" "spec.go" "signals.go" "script/" "rlimit_linux.go" "restore.go" "README.md" "PRINCIPLES.md" "pause.go" "NOTICE" "Makefile" "MAINTAINERS_GUIDE.md" "MAINTAINERS" "main_unsupported.go" "main_unix.go" "main.go" "LICENSE" "libcontainer/" "kill.go" "Godeps/" "exec.go" "events.go" "CONTRIBUTING.md" "checkpoint.go" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/tnachen/go/src/github.com/opencontainers/runc/libcontainer/" (22027 13977 0 0) "xattr/" "utils/" "user/" "system/" "stats_windows.go" "stats_linux.go" "stats_freebsd.go" "stats.go" "standard_init_linux.go" "stacktrace/" "SPEC.md" "setns_init_linux.go" "setgroups_linux.go" "selinux/" "seccomp/" "rootfs_linux_test.go" "rootfs_linux.go" "restored_process.go" "README.md" "process_linux.go" "process.go" "nsenter/" "notify_linux_test.go" "notify_linux.go" "network_linux.go" "label/" "integration/" "init_linux.go" "hack/" "generic_error_test.go" "generic_error.go" "factory_linux_test.go" "factory_linux.go" "factory.go" "error_test.go" "error.go" "devices/" "criurpc/" "criu_opts.go" "container_userns_linux.go" "container_nouserns_linux.go" "container_linux_test.go" "container_linux.go" "container.go" "console_windows.go" "console_linux.go" "console_freebsd.go" "console.go" "configs/" "compat_1.5_linux.go" "cgroups/" "capabilities_linux.go" "apparmor/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
