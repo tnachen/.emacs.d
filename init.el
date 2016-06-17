@@ -250,3 +250,8 @@
 (require 'column-marker)
 
 (require 'find-file-in-repository)
+
+(load "~/.emacs.d/lisp/highlight-sexp.el")
+(require 'highlight-sexp)
+(add-hook 'lisp-mode-hook 'highlight-sexp-mode)
+(add-hook 'emacs-lisp-mode-hook 'highlight-sexp-mode)
