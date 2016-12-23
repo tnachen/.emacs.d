@@ -184,13 +184,13 @@
 (when (>= emacs-major-version 24)
     (require 'package)
       (package-initialize)
-        (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+        (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
           )
 
 ;; add package PPAs
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+                         ("melpa" . "http://melpa.org/packages/")))
 
 ;; for c++11 standard
 (require 'font-lock)
