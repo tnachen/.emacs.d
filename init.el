@@ -156,7 +156,7 @@
 (global-set-key [(meta f11)] 'highlight-symbol-prev)
 
 ;;indent for js
-(setq js-indent-level 2)
+(setq js-indent-level 4)
 
 ;;protobuf mode
 (require 'protobuf-mode)
@@ -251,7 +251,23 @@
 
 (require 'find-file-in-repository)
 
+(ac-config-default)
+(require 'auto-complete-config)
+(require 'go-autocomplete)
+
 (load "~/.emacs.d/lisp/highlight-sexp.el")
 (require 'highlight-sexp)
 (add-hook 'lisp-mode-hook 'highlight-sexp-mode)
 (add-hook 'emacs-lisp-mode-hook 'highlight-sexp-mode)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
