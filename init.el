@@ -60,6 +60,7 @@
 
 ;; indent
 (setq-default indent-tabs-mode nil)
+(setq-default indent-level 2)
 (setq c-default-style "linux")
 ;;      c-basic-offset 4)
 
@@ -156,7 +157,7 @@
 (global-set-key [(meta f11)] 'highlight-symbol-prev)
 
 ;;indent for js
-(setq js-indent-level 4)
+(setq js-indent-level 2)
 
 ;;protobuf mode
 (require 'protobuf-mode)
