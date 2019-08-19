@@ -243,7 +243,6 @@
 (require 'auto-complete-config)
 
 (add-to-list 'load-path "~/.emacs.d/lisp/go-mode.el/")
-(require 'go-mode-autoloads)
 
 (require 'go-mode)
 (add-hook 'before-save-hook 'gofmt-before-save)
