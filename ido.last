@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/tnachen/" . ".emacs.d/")
+ ("/Users/tnachen/src/grid/grid-backend/grid/" . "core/")
  ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/" . "provisioner/")
  ("/Users/tnachen/src/mesosphere/mesos/src/slave/" . "containerizer/")
  ("/Users/tnachen/src/mesosphere/mesos/src/" . "tests/")
@@ -17,6 +19,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/tnachen/src/grid/grid-backend/"
+ "/Users/tnachen/src/grid/grid-backend/grid/core/"
+ "/Users/tnachen/.emacs.d/"
  "/Users/tnachen/src/mesosphere/mesos/src/tests/containerizer/"
  "/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/"
  "/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/docker/"
@@ -32,20 +37,32 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "Dockerfile"
+ "run.py"
+ "routine.py"
+ "init.el"
+ "task_worker.py"
+ "task_controller.py"
+ "cluster.py"
  "provisioner_appc_tests.cpp"
  "provisioner_backend_tests.cpp"
  "mesos_containerizer_tests.cpp"
- "provisioner.hpp"
- "provisioner.cpp"
- "provisioner_docker_tests.cpp"
- "local_puller.hpp"
- "local_puller.cpp"
- "showroom_test8.html"
- "showroom_test7.html"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/tnachen/.emacs.d/" (24299 2362 133228 927000) ".git/" "elpa/" "el-get/" "list/" ".gitignore" "popup.elc" "README.md" "init.el" ".python-environments/" "auto-save-list/" ".gitmodules" "java/" "keyremapping/" "ido.last~" "fuzzy.el" "LICENSE" "popup.el" "lisp/" "ac-dict/" "ido.last" "fuzzy.elc" "ac-comphist.dat" "../" "./")
+
+ ("/Users/tnachen/src/grid/grid-backend/" (24299 2360 944149 707000) "redis_data/" "grid/" "vendor/" "dramatiq_dashboard/" "kubernetes/" ".vscode/" "htmlcov/" "docker-compose-staging.yml" ".env.example" "venv/" "docker-compose-cli-docs.yml" "postgresql_data/" "docker-compose.yml" "scripts/" ".env.docker" ".env" ".gitignore" "requirements-dev.txt" "kubeconfig/" ".dockerignore" "mypy.ini" "kubexit/" ".ipython.config.py" "README.md" ".coveragerc" "cloud_sync/" "tests/" "secrets/" "Makefile" ".coverage" "Dockerfile" "redis/" ".env~" ".pytest_cache/" "dbmate/" "requirements.txt" "docker/" "run.py" "migrations/" "base.Dockerfile" "postgresql/" "ui/" "lightning_example.py" "../" "./")
+
+ ("/Users/tnachen/src/grid/" (24290 39130 587436 920000) "grid-frontend/" "grid-runner/" ".git/" ".github/" "grid-backend/" "grid-frontend-vue/" ".gitignore" "grid-cli/" "header.png" "README.md" ".deepsource.toml" "grid-spec/" "grid-cli-go/" "vm-images/" "grid-sdk/" ".pre-commit-config.yaml" "grid-components/" "grid-trainer/" ".drone.yml" "../" "./")
+
+ ("/Users/tnachen/src/grid/grid-backend/grid/core/" (24299 2234 75874 38000) "trainer/" "handlers/" "data/" "github.py" "authentication.py" "configs/" "repository_builder.py" "cluster.py" "cli.py" "hardware_accelerators.py" "task_worker.py" "__pycache__/" "routine.py" "__init__.py" "cache.py" "workflows/" "container_factory.py" "database.py" "token_store.py" "credentials.py" "task.py" "user.py" "task_controller.py" "../" "./")
+
+ ("/Users/tnachen/" (24298 59658 916141 614000) "src/" "kubeconfig_test" ".conda/" ".viminfo" ".gitconfig" ".aws/" ".python_history" "Downloads/" ".oh-my-zsh/" ".bash_profile" ".hyper.js" ".vscode/" "Documents/" ".npm/" ".zcompdump" ".jupyter/" ".Trash/" ".git_token" "Dropbox/" "Applications/" "Movies/" ".ssh/" ".kube/" ".grid/" ".hyper_plugins/" ".dropbox/" "Public/" ".zsh_rc~" ".emacs.d/" "google-cloud-sdk/" ".lesshst" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".mujoco/" ".boto" "install.sh" ".pylint.d/" "Pictures/" "Creative Cloud Files/" ".local/" ".zshrc" ".hyper.js~" "test/" ".CFUserTextEncoding" ".zshrc~" ".DS_Store" ".docker/" "Music/" ".config/" "../" "./")
+
+ ("/Users/tnachen/src/grid/grid-backend/grid/" (24298 29373 149784 112000) "status.py" "tracking.py" "utilities.py" "exceptions.py" "api/" "orchestrators/" "__pycache__/" "__init__.py" "globals.py" "core/" "metadata.py" "../" "./")
+
  ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/provisioner/" (22028 8667 0 0) "store.hpp" "store.cpp" "provisioner.hpp" "provisioner.cpp" "paths.hpp" "paths.cpp" "docker/" "backends/" "backend.hpp" "backend.cpp" "appc/" "../" "./")
 
  ("/Users/tnachen/src/mesosphere/mesos/src/slave/containerizer/" (22028 8667 0 0) "provisioner/" "mesos/" "linux_launcher.hpp" "linux_launcher.cpp" "launcher.hpp" "launcher.cpp" "isolators/" "isolator.hpp" "isolator.cpp" "fetcher.hpp" "fetcher.cpp" "external_containerizer.hpp" "external_containerizer.cpp" "docker.hpp" "docker.cpp" "containerizer.hpp" "containerizer.cpp" "composing.hpp" "composing.cpp" "../" "./")
